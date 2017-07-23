@@ -11,7 +11,7 @@ That text is included below for further reference. Our instructions were to sele
 ### Measurements - the original measurements included 561 variables, of which we selected out 66 that contained std() and median() calculations for that measurement. These measurements have then been grouped by subject and activity and the mean calculated. 
 
 
-The full list of fields is shown here, the numbers in front of the original measurements identify its original position in the data. 
+The full list of fields is shown here, the numbers in front of the original measurements identify its original position in the data. Note that the units vary per the data down below: 
 
   [1] "Subject"                         
   "Activity"                        
@@ -65,8 +65,8 @@ The full list of fields is shown here, the numbers in front of the original meas
   "346 fBodyAccJerk-mean()-Y"       
   "347 fBodyAccJerk-mean()-Z"      
   [52] "348 fBodyAccJerk-std()-X"        
-  "349 fBodyAccJerk-std()-Y"        "
-  350 fBodyAccJerk-std()-Z"       
+  "349 fBodyAccJerk-std()-Y"        
+  "350 fBodyAccJerk-std()-Z"       
   [55] "424 fBodyGyro-mean()-X"          
   "425 fBodyGyro-mean()-Y"          
   "426 fBodyGyro-mean()-Z"         
